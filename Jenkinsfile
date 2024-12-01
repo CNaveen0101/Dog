@@ -7,5 +7,13 @@ pipeline{
                 echo "Code checkout stage passed"
             }
         }
+
+        stage('Build') {
+            steps {
+                mvn clean package
+            }
+                
+            
+        }
     }
 }
