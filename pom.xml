@@ -311,11 +311,11 @@
             </testResource>
         </testResources>
         <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>${maven-compiler-plugin.version}</version>
-            </plugin>
+           <plugin>
+             <groupId>ro.isdc.wro4j</groupId>
+             <artifactId>wro4j-maven-plugin</artifactId>
+             <version>1.9.0</version> <!-- Try a newer version -->
+        </plugin>
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
